@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #09292e;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    display: block;
+    border: none;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+input {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+/* .App {
+    background-color: black;
+    color: white;
+
+}
+
+.residents-card-container {
+    background: rgb(20, 20, 21);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.card {
+    position: relative;
+    width: 21.87rem;
+    height: 25rem;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+.face {
+    position: absolute;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border: 1px solid black;
+    transition: 1s;
+}
+
+.front__img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.back__status {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.front__name {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(14, 11, 11);
+}
+
+.back {
+    transform: perspective(600px) rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.back__container-lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+.img {
+    background-image: url("https://i.blogs.es/669147/ram-s6-key--rt-1920x1080/1366_2000.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+
+.header__title {
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 0.8rem;
+    font-size: 35px;
+    color: rgb(3, 12, 19);
+}
+
+li,
+span,
+h2,
+h1,
+h3,
+p {
+    color: rgb(4, 9, 14);
+}
+
+.info__name {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: aliceblue;
+}
+
+.info__descriptions {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+    font-size: 20px;
+}
+
+.header__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__input {
+    padding: 0.8rem;
+}
+
+.header__button {
+    background-color: black;
+    color: aliceblue;
+    padding: 0.8rem;
+    border-radius: 10px;
+    cursor: pointer;
+} */
